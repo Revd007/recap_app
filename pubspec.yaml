@@ -1,0 +1,34 @@
+name: recap_app
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+dependencies:
+  animated_login: ^1.6.1
+  dotted_border: ^2.0.0+3
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.0-dev.2
+  get: ^4.6.5
+  google_fonts: ^4.0.4
+  image_picker: ^1.0.2
+  intl: ^0.18.1
+  pdf: ^3.10.1
+  permission_handler: ^10.4.3
+  syncfusion_flutter_pdfviewer: ^21.2.10
+  syncfusion_flutter_signaturepad: ^21.2.10
+  # syncfusion_flutter_pdfviewer: ^20.4.54
+  # syncfusion_flutter_signaturepad: ^22.2.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  assets:
+    - assets/images/
+    - assets/icons/
+  uses-material-design: true
